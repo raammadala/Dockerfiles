@@ -2,4 +2,4 @@ FROM almalinux:8
 RUN yum update -y
 RUN yum install nginx -y
 # commnad to run nginx container in foreground
-CMD ["nginx", "-g", "daemon off"] 
+CMD ["nginx", "-g", "daemon off;"] 
